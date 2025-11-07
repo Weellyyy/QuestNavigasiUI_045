@@ -11,4 +11,11 @@ import com.example.questnavigasiui_045.R
 @Composable
 fun TampilData(
     onBackBtnClick: () -> Unit,
-)
+){
+    val items = listOf(
+        Pair(stringResource(R.string.nama_lengkap), "Welly"),
+        Pair(stringResource(R.string.jenis_kelamin), "Lainnya"),
+        Pair(stringResource(R.string.alamat), "Yogyakarta"),
+    )
+
+}
